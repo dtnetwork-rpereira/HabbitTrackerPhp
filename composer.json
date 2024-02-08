@@ -1,0 +1,14 @@
+{
+    "autoload": {
+        "psr-4": {
+            "HabbitTracker\\": "./src"
+        }
+    },
+    "require-dev": {
+        "atoum/atoum": "^4.2",
+        "atoum/stubs": "^2.6"
+    },
+    "scripts": {
+        "test": "vendor/bin/atoum -d **/tests/units"
+    }
+}
